@@ -399,3 +399,52 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
